@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#regForm {
+	width: 85vw;
+}
+
+#viewPatient {
+	width: 60vw;
+}
+
+.proj {
+	height: 15vh;
+}
+
+#notebox {
+	height: 25vh;
+	overflow:auto;
+}
+
+.doctorInfo {
+	height: 9vh;
+	vertical-align: middle;
+}
+
+#searchBar {
+	width: 35vw;
+}
+
+#chart {
+	margin: auto;
+	width: 50vw;
+}
+
+#switch {
+	width: 5vw;
+	height: 2vw;
+}
