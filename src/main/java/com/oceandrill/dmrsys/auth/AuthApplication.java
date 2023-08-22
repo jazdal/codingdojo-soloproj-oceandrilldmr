@@ -13,9 +13,9 @@ public class AuthApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AuthApplication.class, args);
 	}
-	
-	@Bean
-	public TomcatServletWebServerFactory servletContainer() {
+
+    @Bean
+    TomcatServletWebServerFactory servletContainer() {
 		TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
 		Connector ajpConnector = new Connector("AJP/1.3");
 		ajpConnector.setPort(9090);
